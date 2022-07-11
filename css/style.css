@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+    z-index: -1;
+}
+#logo{
+    margin: 3px 3px;
+}
+#logo img{
+    width: 82px;
+    margin: 3px 39px;
+}
+#navbar ul{
+    display: flex;
+    /* align-items: center; */
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 17px;
+}
+#navbar ul li a{
+    padding: 4px 16px;
+    display: block;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 12px 3px;
+}
+#navbar ul li a:hover{
+    /* background-color: white; */
+    color: red;
+}
+/* Home section  */
+#home{
+    display: contents;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    height: 100%;
+    padding: 12px 200px;
+}
+#home::before{
+    content: "";
+    background: url('/img/cheers-g1a315a4b6_1920.jpg') no-repeat center center/cover ;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+
+}
+#home p{
+    color: white;
+    font-size: 28px;
+    margin: -6px 79px 12px 12px;
+    padding: 21px 45px;
+}
+
+#home h1{
+    color: white;
+    font-size: 62px
+    ;
+    margin: 5px 77px;
+    padding: 3px 3px ;
+}
+#home h2{
+    color: white;
+    font-size: 62px
+    ;
+    margin: -18px 77px;
+    padding: 3px 3px ;
+}
+.btn{
+    
+    background: transparent;
+    padding: 13px 37px;
+    margin: 12px -464px 61px 500px;
+    border-radius: 35px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid white;
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.footer-last-class{
+background-color: rgb(218, 236, 252);
+}
+ul li{
+list-style: none;
+margin: 12px;
+}
+.ul-class{
+display: flex;
+justify-content: space-around;
+font-size: larger;
+}
+.perfect{
+    margin-top: 185px;
+}
